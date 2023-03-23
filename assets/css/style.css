@@ -8,6 +8,9 @@ body {
     background-color: #b5e2fa;
 }
 
+/* used feedback from AccessScan regarding their readbility parameters:
+changed background color to increase the contrast ratios between the background and the footer */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -112,6 +115,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0b72aa;
 }
+
+/* used feedback from AccessScan regarding their readbility parameters:
+changed background color to increase the contrast ratios between the background and the benefits class */
 
 .benefits-explained {
     margin-bottom: 32px;

@@ -24,6 +24,8 @@ header h1 #seo {
     color: #d9dcd6;
 }
 
+/* changed the seo from class to id since it was refering to one unique attribute.*/
+
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,6 +42,10 @@ header li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* cleaned up the navigations in the header sections,
+it is not necessary to include all the sub-elements that are before the desired destination, 
+you only need the main element (in this case header), followed by the desired destination (like "ul" or "li", etc) */
 
 a {
     color: #ffffff;
@@ -75,6 +81,27 @@ p {
     margin-left: 20px;
 }
 
+.contents {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.contents img {
+    max-height: 200px;
+}
+
+.contents h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+ 
+/* 1- brought the content class subsections right below, that way it follows the chronological order of the HTML file and it's easier to follow along.
+   2- consolidated the orignal classes it had under the "content" class as they all shared the same CSS properties and values */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,23 +129,7 @@ p {
     max-width: 150px;
 }
 
-.contents {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.contents img {
-    max-height: 200px;
-}
-
-.contents h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* consolidated the orignal classes it had under the "benefits" class as they all shared the same CSS properties and values */
 
 footer {
     padding: 30px;

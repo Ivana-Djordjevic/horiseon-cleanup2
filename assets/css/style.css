@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #e9bfdd;
 }
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #aa79d8;
     color: #ffffff;
 }
 
@@ -21,7 +21,7 @@ header h1 {
 }
 
 header h1 #seo {
-    color: #d9dcd6;
+    color: #78096d;
 }
 
 /* changed the seo from class to id since it was refering to one unique attribute.*/
@@ -86,7 +86,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #78096d;
     color: #ffffff;
 }
 
@@ -110,7 +110,7 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #721ba4;
 }
 
 .benefits-explained {

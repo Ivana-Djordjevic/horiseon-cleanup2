@@ -4,12 +4,12 @@
     margin: 0;
 }
 
+/* used feedback from AccessScan regarding the readbility parameters:
+changed background color to a light blue to increase the contrast ratios between the background and the footer */
+
 body {
     background-color: #b5e2fa;
 }
-
-/* used feedback from AccessScan regarding their readbility parameters:
-changed background color to increase the contrast ratios between the background and the footer */
 
 header {
     padding: 20px;
@@ -23,11 +23,11 @@ header h1 {
     font-size: 48px;
 }
 
+/* changed the seo from class to id since it was refering to one unique attribute.*/
+
 header h1 #seo {
     color: #d9dcd6;
 }
-
-/* changed the seo from class to id since it was refering to one unique attribute.*/
 
 header nav {
     padding-top: 15px;
@@ -37,6 +37,10 @@ header nav {
     font-size: 20px;
 }
 
+/* cleaned up the navigations in the header sections,
+it is not necessary to include all the sub-elements that are before the desired destination, 
+you only need the main element (in this case header), followed by the desired destination (like "ul" or "li", etc) */
+
 header ul {
     list-style-type: none;
 }
@@ -45,10 +49,6 @@ header li {
     display: inline-block;
     margin-left: 25px;
 }
-
-/* cleaned up the navigations in the header sections,
-it is not necessary to include all the sub-elements that are before the desired destination, 
-you only need the main element (in this case header), followed by the desired destination (like "ul" or "li", etc) */
 
 a {
     color: #ffffff;
@@ -84,6 +84,9 @@ p {
     margin-left: 20px;
 }
 
+/* 1- brought the content class subsections right below, that way it follows the chronological order of the HTML file and it's easier to follow along.
+   2- consolidated the orignal classes it had under the "content" class as they all shared the same CSS properties and values */
+
 .contents {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,8 +105,8 @@ p {
     font-size: 36px;
 }
  
-/* 1- brought the content class subsections right below, that way it follows the chronological order of the HTML file and it's easier to follow along.
-   2- consolidated the orignal classes it had under the "content" class as they all shared the same CSS properties and values */
+/* used feedback from AccessScan regarding the readbility parameters:
+changed background to a darker color to increase the contrast ratios between the background and the benefits class */
 
 .benefits {
     margin-right: 20px;
@@ -116,8 +119,7 @@ p {
     background-color: #0b72aa;
 }
 
-/* used feedback from AccessScan regarding their readbility parameters:
-changed background color to increase the contrast ratios between the background and the benefits class */
+/* consolidated the orignal classes it had under the "benefits" class as they all shared the same CSS properties and values */
 
 .benefits-explained {
     margin-bottom: 32px;
@@ -134,8 +136,6 @@ changed background color to increase the contrast ratios between the background 
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* consolidated the orignal classes it had under the "benefits" class as they all shared the same CSS properties and values */
 
 footer {
     padding: 30px;
